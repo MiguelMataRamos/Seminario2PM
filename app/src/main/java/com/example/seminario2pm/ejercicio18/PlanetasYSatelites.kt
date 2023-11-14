@@ -23,4 +23,7 @@ open class CuerpoCeleste(
     }
 }
 
+class Planeta(nombre: String,diametro: Double,periodoRotacion: Double,distanciaMediaAlCuerpo: Double)
+
+
 
