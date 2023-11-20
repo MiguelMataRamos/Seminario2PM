@@ -12,7 +12,6 @@ open class Nota(val id: Int, private val texto: String) {
 //constructor, accedentes y toString.
 class NotaAlarma(id: Int, texto: String, private val hora: String) : Nota(id, texto) {
 
-
     override fun toString(): String {
         return super.toString() + "\nSonara a las $hora"
     }
